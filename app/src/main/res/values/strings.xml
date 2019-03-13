@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TPDM_U2_PRACTICA2_EricRoman</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string-array name="tipos">
+        <item>Auto</item>
+        <item>Casa</item>
+        <item>Medico</item>
+    </string-array>
+</resources>

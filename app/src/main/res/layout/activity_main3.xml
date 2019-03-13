@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Main2Activity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono:"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:hint="Ingrese telefono : 311 000 00 00"
+                android:id="@+id/telefonoPropietario2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:hint="ubicacion del proyecto"
+                android:id="@+id/nombrePropietario2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Domicilio:"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:inputType="numberDecimal"
+                android:hint="presupuesto del proyecto"
+                android:id="@+id/domicilioPropietario2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha:"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginVertical="10dp"
+                android:clickable="true"
+                android:editable="false"
+                android:layout_height="wrap_content"
+                android:hint="fecha del proyecto"
+                android:id="@+id/fechaPropietario2"
+                tools:ignore="Deprecated" />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Nuevo Seguro"
+                android:layout_gravity="center"
+                android:background="#25C7E4"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/nuevoSeguro"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Actualizar Propietario"
+                android:layout_gravity="center"
+                android:background="#25C7E4"
+                android:textColor="#FFFFFF"
+                android:id="@+id/actualizarPropietario2"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Eliminar Propietario"
+                android:layout_gravity="center"
+                android:background="#FF0000"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:id="@+id/eliminarPropietario2"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:layout_gravity="center"
+                android:id="@+id/regresarPropietario2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lista de seguros"
+                android:textSize="25dp"
+                android:layout_margin="5dp"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/ListaSeguros"></ListView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
